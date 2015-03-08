@@ -1,0 +1,15 @@
+{
+	"name": "Fantastic Four",
+	"imageUrl": "http://img4.wikia.nocookie.net/__cb20140819200830/marveldatabase/images/thumb/1/1d/Fantastic_Four_Vol_5_13_Textless.jpg/250px-Fantastic_Four_Vol_5_13_Textless.jpg",
+	"maker": "Marvel",
+	"team": [
+		{"name": "Mister Fantastic", "realName": "Reed Richards", 
+			"imageUrl": "http://x.annihil.us/u/prod/marvel/i/mg/2/50/537bb1c400135/portrait_small.jpg"},
+		{"name": "HUMAN TORCH", "realName": "Jonathan Lowell Spencer 'Johnny' Storm",
+			"imageUrl": "http://i.annihil.us/u/prod/marvel/i/mg/9/00/537bb002db77f/portrait_small.jpg"},
+		{"name": "INVISIBLE WOMAN", "realName": "Susan Storm Richards",
+			"imageUrl": "http://i.annihil.us/u/prod/marvel/i/mg/6/a0/52695b9cd40b6/portrait_small.jpg"},
+		{"name": "THING", "realName": "Benjamin Jacob Grimm",
+			"imageUrl": "http://i.annihil.us/u/prod/marvel/i/mg/f/c0/537bcf3c9ef1f/portrait_small.jpg"}
+	]
+}
