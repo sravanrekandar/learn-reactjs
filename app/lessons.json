@@ -1,0 +1,76 @@
+[
+  {
+    "name": "intro",
+    "title": "Introduction",
+    "component": "1/intro/intro.jsx",
+    "chapter": "1",
+    "keywords": ["essentials", "setup"]
+  },
+  {
+    "name": "setup",
+    "title": "Basic Setup",
+    "component": "1/basic-setup/basic-setup.jsx",
+    "chapter": "1",
+    "snippets":{
+      "1/basic-setup/1": "lessons/1/basic-setup/1.snippet"
+    },
+    "keywords": ["essentials", "setup"]
+  },
+  {
+    "name": "helloworld",
+    "title": "Hello World",
+    "component": "1/helloworld/helloworld.jsx",
+    "chapter": "1",
+    "snippets":{
+      "1/helloworld/1": "lessons/1/helloworld/1.snippet",
+      "1/helloworld/2": "lessons/1/helloworld/2.snippet",
+      "1/helloworld/3": "lessons/1/helloworld/3.snippet"
+    },
+    "keywords": ["essentials", "helloworld"]
+  },
+  {
+    "name": "inline-styles",
+    "title": "Inline Styles",
+    "component": "1/inline-styles/inline-styles.jsx",
+    "chapter": "1",
+    "snippets":{
+    },
+    "keywords": ["essentials", "styles", "css"]
+  },
+  {
+    "name": "nesting-components",
+    "title": "Nesting Components",
+    "component": "1/nesting-components/nesting-components.jsx",
+    "chapter": "1",
+    "snippets":{
+    },
+    "keywords": ["essentials", "nesting", "styles", "css"]
+  },
+  {
+    "name": "crud1",
+    "title": "CRUD Operations (part 1) C,R & U",
+    "component": "1/crud1/crud1.jsx",
+    "chapter": "1",
+    "snippets":{
+    },
+    "keywords": ["essentials", "crud"]
+  },
+  {
+    "name": "crud2",
+    "title": "CRUD Operations (part 2) Delete",
+    "component": "1/crud2/crud2.jsx",
+    "chapter": "1",
+    "snippets":{
+    },
+    "keywords": ["essentials", "crud"]
+  },
+  {
+    "name": "handling-form-fields",
+    "title": "Handling Form Fields",
+    "component": "1/handling-form-fields/handling-form-fields.jsx",
+    "chapter": "1",
+    "snippets":{
+    },
+    "keywords": ["Form"]
+  }
+]

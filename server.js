@@ -1,17 +1,6 @@
-var express = require('express')
-var app = express()
+var server = require('pushstate-server');
 
-app.use(express.static('public'));
-app.use(express.static('components'));
-
-app.get('/', function (req, res) {
-  res.redirect('/index.html');
+server.start({
+  port: process.env.PORT || 3000,
+  directory: './public'
 });
-
-var server = app.listen(1405, function () {
-  var host = server.address().address
-  var port = server.address().port
-
-  console.log('Example app listening at http://%s:%s', host, port)
-
-})

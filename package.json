@@ -1,41 +1,39 @@
 {
   "name": "learn-reactjs",
-  "version": "0.0.0",
-  "description": "Code examples/ tutorials to create ReactJS components",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server",
-    "postinstall": "bower install",
-    "test": ""
-  },
-  "keywords": [
-    "reactjs",
-    "tutorials",
-    "ract-components"
+  "version": "0.2.0",
+  "homepage": "https://github.com/srekans/learn-reactjs",
+  "authors": [
+    "srekans <srekan.ui@gmail.com>"
   ],
-  "author": "sravanrekandar@gmail.com",
-  "repository": "https://github.com/sravanrekandar/learn-reactjs",
-  "license": "MST",
+  "description": "React.js tutorials",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.5.2",
-    "express": "^4.12.2",
-    "grunt-react": "^0.9.0",
-    "socket.io": "^1.0.6",
-    "lodash": "*",
-    "uniq": "^1.0.1",
-    "highlight.js": "^8.4.0",
-    "react": "^0.12.2",
-    "react-highlight": "^0.4.1"
+    "extract-text-webpack-plugin": "^0.8.2",
+    "pushstate-server": "0.2.0",
+    "react": "0.12.x",
+    "react-router": "0.10.x"
   },
   "devDependencies": {
-    "reactify": "*",
-    "browserify": "*",
-    "vinyl-source-stream": "*",
-    "gulp": "*",
-    "gulp-util": "*",
-    "gulp-sourcemaps": "*",
-    "vinyl-buffer": "^1.0.0",
-    "watchify": "^2.4.0",
-    "brfs": "^1.4.0"
+    "assert": "^1.1.1",
+    "css-loader": "^0.15.1",
+    "json-loader": "^0.5.2",
+    "jsx-loader": "0.12.0",
+    "jsx-syntaxhighlighter": "^0.1.0",
+    "karma": "^0.12.16",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-cli": "0.0.4",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-mocha": "^0.1.4",
+    "karma-webpack": "^1.2.1",
+    "mocha": "^1.20.1",
+    "node-syntaxhighlighter": "^0.8.1",
+    "react-tools": "0.11.2",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.3.0-beta5",
+    "webpack-dev-server": "^1.4.6"
   }
 }

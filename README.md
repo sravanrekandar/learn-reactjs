@@ -1,12 +1,17 @@
-# learn-reactjs
-Code examples/ tutorials to create ReactJS components
+React Boilerplate
+=================
 
-See the demo here : http://sravanrekandar.github.io/learn-reactjs/
+Uses:
 
-##Instalation Instructions
-1. Clone this repo
-2. $ npm install
-3. $ gulp
-4. $ npm start
-5. browse to localhost:1405/
+- [React Router](https://github.com/rackt/react-router)
+- [Webpack](http://webpack.github.io/)
+- [pushstate-server](https://github.com/scottcorgan/pushstate-server)
+
+```sh
+$ npm install
+$ ./script/dev
+# open http://localhost:3000
+# or
+$ PORT=8000 ./script/dev
+```
 
