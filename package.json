@@ -1,11 +1,6 @@
 {
-  "name": "learn-reactjs",
-  "version": "0.2.0",
-  "homepage": "https://github.com/srekans/learn-reactjs",
-  "authors": [
-    "srekans <srekan.ui@gmail.com>"
-  ],
-  "description": "React.js tutorials",
+  "name": "react-courses",
+  "version": "0.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
