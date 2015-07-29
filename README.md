@@ -1,6 +1,6 @@
-React Boilerplate
-=================
-[http://srekans.github.io/learn-reactjs/](http://srekans.github.io/learn-reactjs/)
+React.JS tutorials
+===================
+# [http://srekans.github.io/learn-reactjs/](http://srekans.github.io/learn-reactjs/)
 
 
 Development:
