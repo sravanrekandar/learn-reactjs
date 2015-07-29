@@ -1,0 +1,6 @@
+.lessons-list .list-group-item {
+  padding: 0 15px;
+}
+ .active {
+  color: #FFF;
+}
