@@ -31,6 +31,7 @@ var AasPaasLinks = React.createClass({
     }
 });
 var Lesson = React.createClass({
+    mixins: [ Router.State ],
     updateLessonInfo: function(name){
         this.setState({
             name: name
@@ -42,10 +43,10 @@ var Lesson = React.createClass({
         }
     },
     componentDidMount: function () {
-        this.updateLessonInfo(this.props.params.name);
+        this.updateLessonInfo(this.getParams().name);
     },
     componentWillReceiveProps: function(nextProps){
-        this.updateLessonInfo(nextProps.params.name);
+        this.updateLessonInfo(this.getParams().name);
     },
     render: function(){console.log(85);
         var lesson = _.find(lessonsList, {name: this.state.name}),

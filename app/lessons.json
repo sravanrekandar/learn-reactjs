@@ -1,12 +1,5 @@
 [
   {
-    "name": "intro",
-    "title": "Introduction",
-    "component": "1/intro/intro.jsx",
-    "chapter": "1",
-    "keywords": ["essentials", "setup"]
-  },
-  {
     "name": "setup",
     "title": "Basic Setup",
     "component": "1/basic-setup/basic-setup.jsx",

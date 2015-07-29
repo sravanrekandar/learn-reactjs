@@ -10,9 +10,9 @@ var Leftnav = require('./leftnav.jsx');
 var App = React.createClass({
     render: function () {
         return (
-            <div className="container">
-                <div>
-                    <Header />
+            <div>
+                <Header />
+                <div className="container">
                     <div className="row">
                         <div className="col-md-10">
                             <RouteHandler />
@@ -21,8 +21,8 @@ var App = React.createClass({
                             <Leftnav/>
                         </nav>
                     </div>
-                    <Footer />
                 </div>
+                <Footer />
             </div>
         );
     }

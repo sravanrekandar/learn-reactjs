@@ -9,7 +9,16 @@ module.exports = {
   module: {
     loaders: [
       {test: /\.snippet$/, loader: snippetLoader},
-      {test: /\.jsx$/, loader: 'jsx-loader'},
+      {
+        test: /\.js$/,
+        exclude: /(node_modules)/,
+        loader: 'babel?optional[]=runtime&stage=0'
+      },
+      {
+        test: /\.jsx$/,
+        exclude: /(node_modules)/,
+        loader: 'babel?optional[]=runtime&stage=0'
+      },
       { test: /\.json$/, loader: "json" },
       { test: /\.css$/, loader: ExtractTextPlugin.extract("style-loader", "css-loader") }
     ]
