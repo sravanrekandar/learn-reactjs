@@ -1,7 +1,9 @@
 React Boilerplate
 =================
+[http://srekans.github.io/learn-reactjs/](http://srekans.github.io/learn-reactjs/)
 
-Uses:
+
+Development:
 
 - [React Router](https://github.com/rackt/react-router)
 - [Webpack](http://webpack.github.io/)
