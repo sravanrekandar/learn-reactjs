@@ -22,11 +22,12 @@
     "keywords": ["essentials", "helloworld"]
   },
   {
-    "name": "inline-styles",
-    "title": "Inline Styles",
-    "component": "1/inline-styles/inline-styles.jsx",
+    "name": "styling-elements",
+    "title": "Styling Elements",
+    "component": "1/styling-elements/styling-elements.jsx",
     "chapter": "1",
     "snippets":{
+      "1/styling-elements/1": "lessons/1/styling-elements/1.snippet"
     },
     "keywords": ["essentials", "styles", "css"]
   },

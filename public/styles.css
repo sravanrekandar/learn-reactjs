@@ -1,6 +1,11 @@
 .lessons-list .list-group-item {
   padding: 0 15px;
 }
- .active {
+.lessons-list .list-group-item.active a.active {
   color: #FFF;
+}
+.output-container {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
 }

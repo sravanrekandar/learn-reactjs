@@ -4,6 +4,11 @@
 		<meta charset="UTF-8">
 		<title>ReactJS tutorials</title>
 		<link rel="stylesheet" href="lib\bootstrap\css\bootstrap.min.css"/>
+		<style>
+			.text-red{
+				color: red;
+			}
+		</style>
 	</head>
 	<body>
 	<div id="page-content" class="container">
@@ -15,14 +20,25 @@
 	<script src="lib/react-with-addons.min.js"></script>
 	<script src="lib/browser.babel.min.js"></script>
 
+
 	<script type="text/babel">
-		var FirstComponent = React.createClass({
+		var App = React.createClass({
 			render: function(){
-				return <h1>Hello, world!</h1>
+				var greenStyle = {
+					color: 'green',
+					fontWeight: 'bold'
+				};
+				return (
+					<div>
+						<p className="text-red">Text styled in red color</p>
+						<p style={greenStyle}>Hellow! I am a styled paragraph.</p>
+						<p style={{color:'blue', textDecoration:'underline'}}>Another styled paragraph.</p>
+					</div>
+				)
 			}
 		});
-
-		React.render(<FirstComponent />, document.getElementById('page-content'));
+	
+		React.render(<App />, document.getElementById('page-content'));
 	</script>
 	</body>
 </html>
