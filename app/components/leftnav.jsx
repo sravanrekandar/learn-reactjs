@@ -6,9 +6,11 @@ var LeftNav = React.createClass({
     mixins: [ Router.State ],
     render: function () {
         var currentLessonName = this.getParams().name;
-        var items = lessonsList.map(function(el){
+        var items = lessonsList.map(function(el, idx){
             return (
-                <li className={"list-group-item " + ((currentLessonName === el.name) ? 'active': '')}>
+                <li className={"list-group-item " + ((currentLessonName === el.name) ? 'active': '')}
+                    key={idx}
+                    >
                     <Link to="lesson" params={{name: el.name}}> {el.title}</Link>
                 </li>
             );

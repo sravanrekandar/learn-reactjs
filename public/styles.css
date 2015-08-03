@@ -6,6 +6,9 @@
 }
 .output-container {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 5px double #ccc;
     border-radius: 10px;
+}
+.code-snippet-title {
+    padding-left: 30px;
 }

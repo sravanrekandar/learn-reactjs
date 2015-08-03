@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>ReactJS tutorials</title>
+		<link rel="stylesheet" href="lib\bootstrap\css\bootstrap.min.css"/>
+	</head>
+	<body>
+	<div id="page-content" class="container">
+		<!-- Content -->
+	</div>
+	<!-- Scripts -->
+	<script src="lib/jquery.min.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<script src="lib/react-with-addons.min.js"></script>
+	<script src="lib/browser.babel.min.js"></script>
+
+
+	<script type="text/babel">
+		var App = React.createClass({
+			submitForm: function(event){
+				event.preventDefault();
+				var username = this.refs.username.getDOMNode().value,
+					password = this.refs.password.getDOMNode().value;
+
+				if(username === password && username !== '') {
+					alert('Login Success.');
+					this.refs.username.getDOMNode().value = '';
+					this.refs.password.getDOMNode().value = '';
+				}
+			},
+			render: function(){
+				var greenStyle = {
+					color: 'green',
+					fontWeight: 'bold'
+				};
+				return (
+					<div>
+						<form onSubmit={this.submitForm}>
+							<div className="form-group">
+								<label>User Name</label>
+								<input type="text" className="form-control" ref="username" />
+							</div>
+							<div className="form-group">
+								<label>Password</label>
+								<input type="password" className="form-control" ref="password" />
+							</div>
+							<button type="submit" className="btn btn-default">Submit</button>
+						</form>
+						<p className="text-info">* login success on <em>username = password</em></p>
+					</div>
+				)
+			}
+		});
+	
+		React.render(<App />, document.getElementById('page-content'));
+	</script>
+	</body>
+</html>

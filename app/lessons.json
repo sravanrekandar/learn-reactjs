@@ -64,7 +64,19 @@
     "component": "1/handling-form-fields/handling-form-fields.jsx",
     "chapter": "1",
     "snippets":{
+      "1/handling-form-fields/1": "lessons/1/handling-form-fields/1.snippet",
+      "1/handling-form-fields/2": "lessons/1/handling-form-fields/2.snippet",
+      "1/handling-form-fields/3": "lessons/1/handling-form-fields/3.snippet"
     },
     "keywords": ["Form"]
+  },
+  {
+    "name": "crud3",
+    "title": "CRUD Operations (part 3) Update Individual Elements",
+    "component": "1/crud3/crud3.jsx",
+    "chapter": "1",
+    "snippets":{
+    },
+    "keywords": ["essentials", "crud"]
   }
 ]

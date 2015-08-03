@@ -1,7 +1,7 @@
 var React = require('react');
 var requireSnippet = require('../../../custom-requires').requireSnippet;
 var CodeSnippet = require('../../../code-snippet.jsx');
-var snippetHelloWorld = requireSnippet('./1/helloworld/1.snippet');
+var snippetHelloWorld = requireSnippet('./1/helloworld/crud1-example.jsx');
 var snippetJSXCode = requireSnippet('./1/helloworld/2.snippet');
 var snippetTransformedToJSCode = requireSnippet('./1/helloworld/3.snippet');
 
