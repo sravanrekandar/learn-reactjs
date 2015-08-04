@@ -1,7 +1,7 @@
 var React = require('react');
 var requireSnippet = require('../../../custom-requires').requireSnippet;
 var CodeSnippet = require('../../../code-snippet.jsx');
-var snippetBoilerplate = requireSnippet('./1/basic-setup/crud1-example.jsx');
+var snippetBoilerplate = requireSnippet('./1/basic-setup/1.snippet');
 var BasicSetUp = React.createClass({
     render: function () {
         return (

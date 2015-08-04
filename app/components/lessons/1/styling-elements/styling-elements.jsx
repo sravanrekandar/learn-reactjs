@@ -1,7 +1,7 @@
 var React = require('react');
 var requireSnippet = require('../../../custom-requires').requireSnippet;
 var CodeSnippet = require('../../../code-snippet.jsx');
-var snippet1 = requireSnippet('./1/styling-elements/crud1-example.jsx');
+var snippet1 = requireSnippet('./1/styling-elements/1.snippet');
 var Output = React.createClass({
     render: function(){
         var greenStyle = {

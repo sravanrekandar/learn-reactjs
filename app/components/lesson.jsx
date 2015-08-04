@@ -48,7 +48,7 @@ var Lesson = React.createClass({
     componentWillReceiveProps: function(nextProps){
         this.updateLessonInfo(this.getParams().name);
     },
-    render: function(){console.log(85);
+    render: function(){
         var lesson = _.find(lessonsList, {name: this.state.name}),
             title = lesson ? lesson.title : '',
             Component = lesson ? requireLesson('./' + lesson.component) : undefined;

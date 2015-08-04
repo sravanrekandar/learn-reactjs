@@ -27,6 +27,7 @@ module.exports = {
     "jquery": "jQuery",
     "react": "React",
     "react-router": "ReactRouter",
+    "react-bootstrap": "ReactBootstrap",
     "lodash": "lodash",
     "_": "_"
   },

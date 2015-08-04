@@ -27,5 +27,8 @@
     "bootstrap": "~3.3.2",
     "react-simpletabs": "~0.5.3",
     "react-router": "~0.13.3"
+  },
+  "devDependencies": {
+    "react-bootstrap": "~0.24.3"
   }
 }

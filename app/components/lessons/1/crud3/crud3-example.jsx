@@ -1,46 +1,6 @@
-var HerosGrid = React.createClass({
-    propTypes: {
-        data: React.PropTypes.array.isRequired,
-        onRemove: React.PropTypes.func.isRequired
-    },
-    removeHero: function(hero){
-        this.props.onRemove(hero);
-    },
-    render: function(){
-        var self = this,
-            heros = this.props.data,
-            rows = heros.map((hero, idx)=> {
-                return (
-                    <tr key={idx}>
-                        <td>{idx+1}</td>
-                        <td><strong>{hero.title}</strong> ({hero.name})</td>
-                        <td>{hero.city}</td>
-                        <td>
-                            <button className="btn btn-default btn-xs"
-                                    onClick={self.removeHero.bind(self, hero)}>
-                                <i className="glyphicon glyphicon-remove" />
-                            </button>
-                        </td>
-                    </tr>
-                );
-            });
-        return (
-            <table className="table table-striped table-condensed">
-                <thead>
-                <tr>
-                    <th>S.no</th>
-                    <th>Name</th>
-                    <th>City</th>
-                    <th></th>
-                </tr>
-                </thead>
-                <tbody>
-                {rows}
-                </tbody>
-            </table>
-        );
-    }
-});
+var React = require('react');
+var HerosGrid = require('./heros-grid.jsx');
+
 var App = React.createClass({
     getInitialState: function(){
         return {
