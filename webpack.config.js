@@ -1,6 +1,7 @@
 var snippetLoader = 'snippet-loader'; // This custom module is inserted in node_modules
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var webpack = require('webpack');
+
 module.exports = {
   entry: "./app/main.js",
   output: {

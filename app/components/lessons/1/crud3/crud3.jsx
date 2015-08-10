@@ -25,6 +25,20 @@ var Crud3 = React.createClass({
                         <CodeSnippet html={snippet2} />
                     </TabPane>
                 </TabbedArea>
+                <p>There are very few changes we have made to the components</p>
+                <ol>
+                    <li>We have added <strong>removeHero()</strong> method to <strong>&lt;App /&gt;</strong></li>
+                    <li>We are passing the <strong>removeHero()</strong> method to <strong>&lt;HerosGrid /&gt;</strong> :  <em>onRemove=&#123;this.removeHero&#125;</em></li>
+                    <li>In <strong>&lt;HerosGrid /&gt;</strong>, we are now using another component <strong>&lt;Hero /&gt;</strong> for each row.</li>
+                    <li>
+                        <strong>Hero </strong> class:
+                        <ul>
+                            <li>Each of the hero object been provided with a new attribute <strong><em>__edit</em></strong> which tells whether the object is in edit mode or not.</li>
+                            <li>In <strong>render()</strong> method,  we are rendering one of the two markups (edit or view)</li>
+                            <li>In edit markup, we are using <strong>ref</strong> attributes, and using <strong>updateAttr()</strong> we are editing the actual hero object.</li>
+                        </ul>
+                    </li>
+                </ol>
             </div>
         )
     }

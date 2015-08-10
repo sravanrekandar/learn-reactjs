@@ -4,9 +4,6 @@
     "title": "Basic Setup",
     "component": "1/basic-setup/basic-setup.jsx",
     "chapter": "1",
-    "snippets":{
-      "1/basic-setup/1": "lessons/1/basic-setup/1.snippet"
-    },
     "keywords": ["essentials", "setup"]
   },
   {
@@ -14,11 +11,6 @@
     "title": "Hello World",
     "component": "1/helloworld/helloworld.jsx",
     "chapter": "1",
-    "snippets":{
-      "1/helloworld/1": "lessons/1/helloworld/1.snippet",
-      "1/helloworld/2": "lessons/1/helloworld/2.snippet",
-      "1/helloworld/3": "lessons/1/helloworld/3.snippet"
-    },
     "keywords": ["essentials", "helloworld"]
   },
   {
@@ -26,9 +18,6 @@
     "title": "Styling Elements",
     "component": "1/styling-elements/styling-elements.jsx",
     "chapter": "1",
-    "snippets":{
-      "1/styling-elements/1": "lessons/1/styling-elements/1.snippet"
-    },
     "keywords": ["essentials", "styles", "css"]
   },
   {
@@ -36,8 +25,6 @@
     "title": "Nesting Components",
     "component": "1/nesting-components/nesting-components.jsx",
     "chapter": "1",
-    "snippets":{
-    },
     "keywords": ["essentials", "nesting", "styles", "css"]
   },
   {
@@ -45,8 +32,6 @@
     "title": "CRUD Operations (part 1) C,R & U",
     "component": "1/crud1/crud1.jsx",
     "chapter": "1",
-    "snippets":{
-    },
     "keywords": ["essentials", "crud"]
   },
   {
@@ -54,8 +39,6 @@
     "title": "CRUD Operations (part 2) Delete",
     "component": "1/crud2/crud2.jsx",
     "chapter": "1",
-    "snippets":{
-    },
     "keywords": ["essentials", "crud"]
   },
   {
@@ -63,11 +46,8 @@
     "title": "Handling Form Fields",
     "component": "1/handling-form-fields/handling-form-fields.jsx",
     "chapter": "1",
-    "snippets":{
-      "1/handling-form-fields/1": "lessons/1/handling-form-fields/1.snippet",
-      "1/handling-form-fields/2": "lessons/1/handling-form-fields/2.snippet",
-      "1/handling-form-fields/3": "lessons/1/handling-form-fields/3.snippet"
-    },
+    "componentPath": "app/components/lessons/1/handling-form-fields/",
+    "outputComponent":"handling-form-fields-example.jsx",
     "keywords": ["Form"]
   },
   {
@@ -75,8 +55,8 @@
     "title": "CRUD Operations (part 3) Update Individual Elements",
     "component": "1/crud3/crud3.jsx",
     "chapter": "1",
-    "snippets":{
-    },
+    "componentPath":"app/components/lessons/1/crud3/",
+    "outputComponent":"1/crud3/crud3-example.jsx",
     "keywords": ["essentials", "crud"]
   }
 ]
